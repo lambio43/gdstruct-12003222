@@ -41,7 +41,7 @@ public class ArrayStack {
             throw new EmptyStackException();
         }
 
-        return stack[top -1];
+        return stack[top - 1];
     }
 
     public boolean isEmpty()
